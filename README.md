@@ -4,7 +4,7 @@ Site estático (HTML/CSS/JS) da ONG **Novos Herdeiros**. Responsivo e acessível
 
 ![preview](./img/log.png)
 
-> **Demo:** https://DaNC05.github.io/novos-herdeiros-site/
+> **Demo:** https://DaNC05.github.io/Novosherdeiros/
 
 ---
 
@@ -40,7 +40,7 @@ Site estático (HTML/CSS/JS) da ONG **Novos Herdeiros**. Responsivo e acessível
 
 ```bash
 # 1) Baixe/clonando
-git clone https://github.com/DaNC05/novos-herdeiros-site.git
+git clone https://github.com/DaNC05/Novosherdeiros.git
 cd novos-herdeiros-site
 
 # 2) Abra no navegador
