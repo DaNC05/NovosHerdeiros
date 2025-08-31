@@ -1,0 +1,104 @@
+:root {
+  /* PALETA */
+  --brand-50:  #e8f0ff;
+  --brand-100: #cfe0ff;
+  --brand-200: #a7c2ff;
+  --brand-300: #6ea0ff;
+  --brand-400: #3d82ff;
+  --brand-500: #1e73ff;
+  --brand-600: #1558cc;
+  --brand-700: #1044a3;
+  --brand-800: #0c347d;
+  --brand-900: #082457;
+
+  --accent-500:  #ff8c00; /* destaque secundário */
+  --success-500: #16a34a; /* sucesso */
+  --warning-500: #f59e0b; /* aviso */
+  --danger-500:  #ef4444; /* erro */
+
+  --gray-0:   #ffffff;
+  --gray-50:  #fafafa;
+  --gray-100: #f4f4f5;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  /* SUPERFÍCIES */
+  --surface-1: var(--gray-0);   /* fundo principal */
+  --surface-2: var(--gray-50);  /* blocos */
+  --surface-3: var(--gray-100); /* barras/headers */
+  --backdrop: rgba(0, 0, 0, .5);
+
+  /* TEXTO */
+  --text-strong:  var(--gray-900);
+  --text:         var(--gray-800);
+  --text-muted:   var(--gray-600);
+  --text-inverse: #ffffff;
+  --link:        var(--brand-600);
+  --link-hover:  var(--brand-700);
+
+  /* TIPOGRAFIA */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fs-xxs: 12px;
+  --fs-xs:  14px;
+  --fs-sm:  16px;
+  --fs-md:  18px;
+  --fs-lg:  24px;
+  --fs-xl:  32px;
+  --fs-2xl: 40px;
+  --lh-tight:   1.2;
+  --lh-normal:  1.5;
+  --lh-relaxed: 1.7;
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+  --fw-black:    800;
+
+  /* ESPAÇAMENTO (8-pt) */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* RAIO & BORDAS */
+  --radius-sm:  6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --border: 1px solid var(--gray-200);
+
+  /* SOMBRAS */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, .10);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, .16);
+
+  /* LARGURA */
+  --container: 1200px;
+}
+
+/* Modo escuro opcional */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-1: #0b0f14;
+    --surface-2: #0f141b;
+    --surface-3: #131a22;
+    --text-strong: #f9fafb;
+    --text: #e5e7eb;
+    --text-muted: #9ca3af;
+    --link: #90b4ff;
+    --link-hover: #b8cbff;
+    --border: 1px solid #1f2937;
+  }
+}
